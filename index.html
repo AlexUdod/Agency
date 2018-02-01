@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+	<title>Шаблон</title>
+</head>
+
+<body>
+
+<header class="site-header">
+	<div class="wrapper">
+		<div class="logo-header">
+			<span class="logo-header__name">Agency</span>
+		</div>
+		<nav class="header-nav">
+			<i class="header-nav__menu--shot">
+				<span class="header-nav__btn">Menu</span>
+			</i>			
+			<ul class="header-nav__menu">
+				<li class="header-nav__menu-item">
+					<a class="header-nav__item--link" href="#">Home</a>
+				</li>
+				<li class="header-nav__menu-item">
+					<a class="header-nav__item--link" href="#">About</a>
+				</li>
+				<li class="header-nav__menu-item">
+					<a class="header-nav__item--link" href="#">Services</a>
+				</li>
+				<li class="header-nav__menu-item">
+					<a class="header-nav__item--link" href="#">Gallery</a>
+				</li>
+				<li class="header-nav__menu-item">
+					<a class="header-nav__item--link" href="#">Contact</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="caption">
+			<h2 class="header-caption">
+				<span class="header-caption--color">Trusted</span> by every1
+			</h2>
+			<p class="header-caption__text">We ara doing fabulous and incredible things, providing new technologiesb and innovations, which appreciated all over the world.
+			</p>
+		</div>
+		<div class="quote">
+			<form class="quote-menu">
+				<span class="quote-menu__caption">Request a quote</span>
+				<input class="quote-menu__item" type="text"   required placeholder="Full Name" pattern="[A-Za-z]{3,}" title="More than 3 latin symbols">
+				<input class="quote-menu__item" type="email"  required placeholder="Email Adress" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}">
+				<input class="quote-menu__item" type="tel" required placeholder="Phone Number" title="Международный, государственный или местный телефонный номер">
+				<input class="quote-menu__item" type="text" required placeholder="Country" pattern="[A-Za-z]{3,}" title="More than 3 latin symbols">
+				<label class="quote-menu__item-agreement">
+					<input class="quote__checkbox" type="checkbox" required>
+						<span class="quote-menu__item-areement--text">I accept the terms & conditions
+						</span>
+				</label>
+				<button class="quote-menu__item quote-menu__item--submit" type="submit">Send
+				</button>
+			</form>
+		</div>	
+	</div>
+</header>
+
+<main class="content">
+	<div class="wrapper wrapper-services">
+		<h1 class="services__caption">
+			<span class="services__caption--color">Our</span> services
+		</h1>
+		<div class="services-list">
+			<span class="services-list__item services-list__item--heart">Making your trip beautiful and easier </span>
+			<span class="services-list__item services-list__item--tools">Tools to help you succeed tommorow</span>
+			<span class="services-list__item services-list__item--lamp">Ideas that will blow you out the blue.</span>
+			<span class="services-list__item services-list__item--clock">Navigate your path to beautiful world.</span>
+		</div>
+	</div>
+	<div class="history">
+		<div class="wrapper wrapper-history">
+			<p class="history__text">We are in business for over 6 years providing amazing services to client and people love them to the core. View our history to know more.
+			</p>
+			<span class="history__btn">
+				<a href="#" class="hisrory__btn--link">Our story</a>
+			</span>
+		</div>
+	</div>	
+	<div class="pricing">
+		<div class="wrapper wrapper-pricing">
+			<h1 class="pricing-caption">Pricing</h1>		
+			<div class="pricing-variants">
+				<h2 class="pricing-variants__caption">Starter</h2>
+				<p class="pricing-cost">Free</p>
+				<ul class="pricing-list">
+					<li class="pricing-list__items">Free services</li>
+					<li class="pricing-list__items">Multiple accounts</li>
+					<li class="pricing-list__items">Management no</li>
+					<li class="pricing-list__items">--</li>
+					<li class="pricing-list__items">--</li>
+				</ul>
+				<span class="pricing-submit">
+					<a href="#" class="pricing-submit--link">Try</a>
+				</span>
+			</div>
+			<div class="pricing-variants pricing-variants__popular">
+				<h2 class="pricing-variants__caption">Business</h2>
+				<p class="pricing-cost">$97</p>
+				<ul class="pricing-list">
+					<li class="pricing-list__items">Free services</li>
+					<li class="pricing-list__items">Multiple account</li>
+					<li class="pricing-list__items">Management no</li>
+					<li class="pricing-list__items">Unlimited data</li>
+					<li class="pricing-list__items">--</li>
+				</ul>
+				<span class="pricing-submit">
+					<a href="#" class="pricing-submit--link">Sign up</a>
+				</span>
+			</div>
+			<div class="pricing-variants">
+				<h2 class="pricing-variants__caption">Professional</h2>
+				<p class="pricing-cost">$297</p>
+				<ul class="pricing-list">
+					<li class="pricing-list__items">Free services</li>
+					<li class="pricing-list__items">Multiple account</li>
+					<li class="pricing-list__items">Management no</li>
+					<li class="pricing-list__items">Unlimited data</li>
+					<li class="pricing-list__items">Whatever you need</li>
+				</ul>
+				<span class="pricing-submit">
+					<a href="#" class="pricing-submit--link">Sign up</a>
+				</span>
+			</div>	
+		</div>
+	</div>
+	<div class="review">
+		<div class="wrapper wrapper-review">
+			<section class="testimonial">
+				<h2 class="testimonial__caption">Testimonial</h2>
+				<div class="testimonial__item">
+					<p class="testimonial__item-info">I have been involved with this comapny for ages and just whant to say this is a grat work by designcoon.
+					</p>
+					<p class="testimonial__item-info--author">DJ Bravo - Frequent Travelera
+					</p>
+					<div class="testimonial__item-info--author-face">
+						<img src="image/gay-glasses.png" alt="" class="testimonial__item-info--author-face__foto">
+					</div>
+				</div>
+				<div class="testimonial__item">
+					<p class="testimonial__item-info">I have been involved with this comapny for ages and just . 
+					</p>
+					<p class="testimonial__item-info--author">DJ Bravo - Frequent Travelera
+					</p>
+					<div class="testimonial__item-info--author-face">
+						<img src="image/young-gay.png" alt="" class="testimonial__item-info--author-face__foto">
+					</div>
+				</div>		
+			</section>
+			<div class="gallery">
+				<h2 class="gallery__caption">Gallery</h2>
+				<div class="gallery__img">
+					<div class="gallery__img-items">
+						<img src="image/girl-in-red.png" alt="" class="gallery__img-items__foto">
+					</div>
+					<div class="gallery__img-items">
+						<img src="image/berries.png" alt="" class="gallery__img-items__foto">
+					</div>
+					<div class="gallery__img-items">
+						<img src="image/lemon.png" alt="" class="gallery__img-items__foto">
+					</div>
+					<div class="gallery__img-items">
+						<img src="image/cups.png" alt="" class="gallery__img-items__foto">
+					</div>
+					<div class="gallery__img-items">
+						<img src="image/girls-feet.png" alt="" class="gallery__img-items__foto">
+					</div>
+					<div class="gallery__img-items">
+						<img src="image/stones.png" alt="" class="gallery__img-items__foto">
+					</div>					
+				</div>
+				<span class="gallery__more">
+					<a href="#" class="gallery__more--link">View more pictures</a>
+				</span>
+			</div>
+		</div>
+	</div>
+</main>
+
+<footer class="footer">
+	<div class=" wrapper wrapper__footer">
+		<p class="footer-copyright">All Rights Reserved |  2016  |  Designed with love by 
+			<span class="footer-copyright--color">DesignCoo</span>
+		</p>
+		<div class="logo__footer">
+			<span class="logo-name__footer">Agency</span>
+		</div>
+	</div>	
+</footer>
+	
+</body>
+</html>
